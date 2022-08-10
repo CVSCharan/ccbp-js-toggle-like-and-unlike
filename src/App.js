@@ -39,14 +39,14 @@ function App() {
   const renderIcon = `fa fa-thumbs-up ${icon}`;
 
   return (
-    <div class="app">
-      <img src={image} class="puppy-image" id="puppyImage" alt="img1" />
-      <div class="d-flex flex-row justify-content-center mt-3">
-        <i id="likeIcon" class={renderIcon} aria-hidden="true"></i>
+    <div className="app">
+      <img src={image} className="puppy-image" id="puppyImage" alt="img1" />
+      <div className="d-flex flex-row justify-content-center mt-3">
+        <i id="likeIcon" className={renderIcon} aria-hidden="true"></i>
         <button
           type="button"
           id="likeButton"
-          class={renderButton}
+          className={renderButton}
           onClick={onClickLikeButton}
         >
           Like
